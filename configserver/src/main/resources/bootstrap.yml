@@ -4,6 +4,3 @@ spring:
       server:
         git:
           uri: https://github.com/iundarigun/repoconfig
-management:
-  security:
-    enabled: false
