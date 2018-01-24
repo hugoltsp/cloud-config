@@ -1,5 +1,0 @@
-server:
-  port: 8081
-test:
-  url:
-    http://noapplicationlocal:8080
