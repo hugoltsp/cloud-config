@@ -1,0 +1,5 @@
+server:
+  port: 8091
+test:
+  url:
+    http://app2-noapplicationlocal:8080
