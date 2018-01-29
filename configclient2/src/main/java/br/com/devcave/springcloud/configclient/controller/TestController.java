@@ -11,8 +11,11 @@ public class TestController {
     @Value("${test.url}")
     private String urlTest;
 
+    @Value("${test.other-string:}")
+    private String otherString;
+
     @GetMapping("/test-url")
     public String getUrlTest(){
-        return urlTest;
+        return urlTest + "  - " + otherString;
     }
 }
