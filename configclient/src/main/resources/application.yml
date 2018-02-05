@@ -5,4 +5,11 @@ test:
     http://noapplicationlocal:8080
 spring:
   rabbitmq:
+    alternative-addresses: localhost:5672
+    alternative-virtual-host: /alternative
+    alternative-username: guest
+    alternative-password: guest
+    addresses: localhost:5672
     virtual-host: /config
+    username: guest
+    password: guest
