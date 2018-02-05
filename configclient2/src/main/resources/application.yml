@@ -1,5 +1,8 @@
 server:
-  port: 8091
+  port: 9091
 test:
   url:
     http://app2-noapplicationlocal:8080
+spring:
+  rabbitmq:
+    virtual-host: /config

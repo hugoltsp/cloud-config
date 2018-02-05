@@ -3,3 +3,6 @@ server:
 test:
   url:
     http://noapplicationlocal:8080
+spring:
+  rabbitmq:
+    virtual-host: /config
