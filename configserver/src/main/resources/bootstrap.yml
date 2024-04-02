@@ -3,5 +3,5 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/iundarigun/repoconfig
+          uri: https://github.com/hugoltsp/repoconfig
           searchPaths: 'config/{application}/{profile}'
